@@ -4,4 +4,8 @@ function prettify(){
   var backgroundUrl = "http://gl0rix.net/wp-content/uploads/2015/08/gl0rix-top-background.jpg";
   $(".app-wrapper").css('background-image', 'url("' + backgroundUrl + '")');
   $('head').append('<style>.app-wrapper:before{height: 0px !important;}</style>');
+  $(".pane-chat").css('background-image', 'none');
+  $('#main').css('background', 'none');
+  $(".pane-body").css('background-color', 'rgba(255,255,255,0.0001)');
+  $(".pane-chat").css('background-color', 'rgba(255,255,255,0.0001)');
 }
