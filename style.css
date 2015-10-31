@@ -1,0 +1,109 @@
+.app-wrapper
+{
+    background-image: url("https://raw.githubusercontent.com/vav17/PrettyWhatsappWeb/master/img/vav17-pretty-whatsapp-background-github.jpg") !important;
+    background-repeat:repeat;
+}
+
+.app-wrapper::before
+{
+	background-color:#282828;  
+  	background-color:transparent;
+}
+.drawer-container-right, .pane-chat, .pane-intro
+{
+    background: none;
+}
+
+.app, .two
+{
+	background-color:transparent;
+    background-repeat:no-repeat;
+    overflow: hidden;
+}
+
+.message-out:before
+{
+	background-image:none;
+}
+.message-out
+{
+	background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 3px 3px 50px black;
+}
+.message-in:before
+{
+	background-image:none;
+}
+.message-in
+{
+	background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 3px 3px 50px black;
+}
+.drawer-container-left, .pane-list
+{
+	width:350px;	
+}
+*::-webkit-scrollbar{
+    width: 8px;
+    direction:rtl;
+}
+.infinite-list-viewport{
+	
+}
+.media-viewer{
+	background: none;
+}
+.media-viewer-img{
+    margin-top: 1.5em;
+    border: 5px solid #DCF8C6;
+    height: 95%;
+    box-shadow: 10px 10px 35px black;
+}
+.object-fit, .object-fit-scaledown{
+}
+.media-panel-header{
+	display: none;
+}
+pane.pane-list#side{
+	position: relative;
+    left: 0px;
+    height: 100%;
+}
+
+.intro-image{
+	display: none;
+}
+.intro-title{
+    text-indent: -9999px;
+	line-height: 0px;
+    color: white;
+}
+.intro-title::after{
+    text-indent: 0;
+  	display: block;
+  	line-height: initial;
+	content: 'Thanks for using PrettyWhatsapp by vav17!';
+}
+.intro-text{
+    text-indent: -9999px;
+	line-height: 0px;
+	color: white;
+}
+.intro-text::after{
+	text-indent: 0;
+  	display: block;
+  	line-height: initial;
+	content: 'More information at portfolio.vav17.com';
+}
+.pane{
+	background: white;
+}
+.pane-body{
+	background:none;
+}
+.pane-intro::after{
+	border: none;
+}
+.drawer-container-media{
+	left: -50px !important;
+}
