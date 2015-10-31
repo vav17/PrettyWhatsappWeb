@@ -96,10 +96,13 @@ pane.pane-list#side{
 	content: 'More information at portfolio.vav17.com';
 }
 .pane{
-	background: white;
+	background: none;
+}
+.pane-list{
+	background-color: white;
 }
 .pane-body{
-	background:none;
+	background: none;
 }
 .pane-intro::after{
 	border: none;
